@@ -1,0 +1,42 @@
+header {
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: 0.3s all;
+}
+header.scrolled {
+    background-color: #fff;
+    padding: 5px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+header.scrolled .logo {
+    max-width: 80px;
+    transition: 0.3s all;
+}
+header .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+    max-width: 100px;
+    flex: 0 0 100%;
+}
+header .navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
+}
+header .navigation ul li a {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+}
+header.scrolled .navigation ul li a {
+    color: #000;
+}
+
