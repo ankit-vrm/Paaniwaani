@@ -8,6 +8,9 @@ $(window).on('scroll', function() {
         $('header').removeClass('scrolled');
     }
 });
+$(".header-toggle").click(function(){
+    $("body").toggleClass("show-menu");
+  });
 
 
 /*---- banner slider ----*/
@@ -53,6 +56,22 @@ $('.product-wrapper').slick({
     slidesToScroll: 1,
     speed: 500,
     autoplay: true,
+    responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 581,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
   });
 
 
