@@ -47,6 +47,29 @@ $('.banner-inner').slick({
         animateCounter($this, targetValue, 2000); // Adjust duration as needed
     });
 
+/* ----- timer ------ */
+$(function timer () {
+  // Set your start date here (e.g., "2025-04-01T00:00:00")
+  const startDate = new Date("2025-04-11T00:00:00");
+
+  function updateTimer() {
+    const now = new Date();
+    const diff = now - startDate; // Time difference in milliseconds
+    const seconds = Math.floor(diff / 1000);
+    const hrs = String(Math.floor(seconds / 3600)).padStart(2, "0");
+    const mins = String(Math.floor((seconds % 3600) / 60)).padStart(2, "0");
+    const secs = String(seconds % 60).padStart(2, "0");
+
+    // Update the timer in the DOM
+    $("#timer").text(`${hrs} : ${mins} : ${secs}`);
+  }
+
+  // Call updateTimer every second
+  setInterval(updateTimer, 1000);
+
+  // Initial call to show the timer immediately
+  updateTimer();
+});    
 
 /*---- product slider ---- */    
 $('.product-wrapper').slick({

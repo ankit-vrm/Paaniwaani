@@ -1,0 +1,153 @@
+5. Contact Us Page
+
+This page should make it easy for people to reach out.
+
+    Phone Number: “Call us directly at [phone number].”
+
+    Email Address: “Email us at [email address] for more details or orders.”
+
+    Address: (If you have a physical location or pick-up point) “Visit us at [address] or call for delivery.”
+
+    Contact Form: A simple form that lets people inquire about products, place orders, or ask questions.
+
+
+
+============================================================
+
+
+Contact Us Section
+1. Introduction
+
+Start with a short, friendly intro that invites visitors to get in touch with you.
+
+Example:
+“We’d love to hear from you! Whether you have a question about our products, need to place an order, or just want to learn more about what we do, we're here to help. Feel free to reach out to us using the contact form below or via the contact information provided.”
+2. Contact Information
+
+Provide your contact details, such as email, phone number, and physical address (if relevant). You can also add your business hours if applicable.
+
+Example:
+
+    Phone: [Your phone number]
+
+    Email: [Your email address]
+
+    Address: [Your business address] (if you have a physical location)
+
+    Business Hours: Monday – Friday: 9 AM – 6 PM, Saturday: 10 AM – 4 PM
+
+3. Contact Form
+
+A simple contact form is a great way for visitors to easily reach out. The form should include fields for the following:
+
+    Full Name
+
+    Email Address
+
+    Phone Number (optional)
+
+    Message (textarea for general inquiries or order requests)
+
+You can also include a dropdown field for the subject, such as:
+
+    Product Inquiry
+
+    Order Information
+
+    Customer Service
+
+    Other (with an option for visitors to write their own subject if it's not listed)
+
+Example of a Contact Form:
+
+Name:
+[Text Field]
+
+Email Address:
+[Text Field]
+
+Phone Number:
+[Text Field] (Optional)
+
+Subject:
+[Dropdown] (Product Inquiry, Order Information, Customer Service, Other)
+
+Message:
+[Text Area] (Include a larger text box where visitors can write their questions or comments)
+
+[Submit Button]
+4. Map (Optional)
+
+If you have a physical store or office, include a Google Maps embed so customers can easily find your location. If your business operates from home or is delivery-only, you can skip this section or simply highlight your local delivery area.
+5. Social Media Links (Optional)
+
+If you have social media accounts, you can include small icons linking to your profiles. This can be helpful for customers who want to follow you or get in touch through those platforms.
+
+Example:
+“Follow us on social media to stay updated on the latest news, promotions, and more!”
+[Social Media Icons for Facebook, Instagram, Twitter, etc.]
+6. CTA (Call to Action)
+
+Encourage visitors to take action. For example, invite them to place an order, ask a question, or subscribe to your newsletter (if you have one).
+
+Example:
+“Ready to get fresh, pure water delivered to your doorstep? Contact us today and let us take care of your hydration needs!”
+
+
+
+===========================================================================
+
+
+Final Example of Contact Us Section:
+Contact Us
+
+We’d love to hear from you! Whether you have a question about our products, need to place an order, or just want to learn more about what we do, we're here to help. Feel free to reach out to us using the contact form below or via the contact information provided.
+Contact Information
+
+    Phone: [Your phone number]
+
+    Email: [Your email address]
+
+    Address: [Your business address]
+
+    Business Hours: Monday – Friday: 9 AM – 6 PM, Saturday: 10 AM – 4 PM
+
+Get In Touch
+
+Have a question? Need to place an order? Simply fill out the contact form below and we’ll get back to you as soon as possible.
+
+Name:
+[Text Field]
+
+Email Address:
+[Text Field]
+
+Phone Number:
+[Text Field] (Optional)
+
+Subject:
+[Dropdown]
+
+    Product Inquiry
+
+    Order Information
+
+    Customer Service
+
+    Other
+
+Message:
+[Text Area]
+
+[Submit Button]
+Follow Us On Social Media
+
+Stay up to date with our latest news, promotions, and events!
+[Facebook Icon] [Instagram Icon] [Twitter Icon]
+Our Location
+
+[Google Maps Embed or Image of Map]
+(If applicable)
+Ready to Stay Hydrated?
+
+Contact us today to place your order or get more information. We look forward to serving you and keeping you refreshed!
