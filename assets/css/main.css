@@ -56,6 +56,15 @@ position: relative;
 z-index: 1;
 color: var(--light-color);
 }
+span.highlight-text {
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.banner-content p {
+    font-size: 18px;
+}
 .banner-inner .slick-dots {
 position: absolute;
 bottom: 30px;
@@ -82,7 +91,7 @@ background-color: #fff;
 line-height: 1;
 }
 .banner-inner .slick-dots li.slick-active button {
-background-color: #000;
+background-color: var(--light-blue);
 width: 20px;
 border-radius: 20px;
 }
@@ -101,7 +110,7 @@ background-position: center;
 cursor: pointer;
 }
 .banner-inner .slick-arrow:hover {
-background-color: bisque;
+background-color: var(--primary-color);
 }
 .banner-inner .slick-arrow.slick-next {
 right: 0;
@@ -129,6 +138,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+margin: 0 auto 20px;
 }
 .feature-icon img {
 width: 60px;
@@ -144,8 +154,6 @@ max-width: calc(100% / 4 - 15px);
 flex: 0 0 100%;
 text-align: center;
 justify-content: center;
-display: flex;
-flex-direction: column;
 align-items: center;
 gap: 12px;
 background-color: #fff;
@@ -159,6 +167,7 @@ box-shadow: 0 0 45px rgba(0, 0, 0, .08);
 .feature-title h3 {
 text-transform: capitalize;
 font-weight: 600;
+margin-bottom: 12px;
 }
 a.read-more {
 display: inline-block;
