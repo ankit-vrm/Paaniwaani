@@ -44,7 +44,8 @@ width: 100%;
 height: 100%;
 left: 0;
 top: 0;
-background-color: rgba(0,0,0,0.5);
+z-index: 2;
+background-color: rgba(0,0,0,0.6);
 }
 .banner-slider.slick-slide {
 display: flex;
@@ -53,7 +54,7 @@ align-items: center;
 .banner-content {
 max-width: 50%;
 position: relative;
-z-index: 1;
+z-index: 3;
 color: var(--light-color);
 }
 span.highlight-text {
@@ -119,6 +120,14 @@ background-image: url('/assets/images/icons/right-arrow.png');
 .banner-inner .slick-arrow.slick-prev {
 left: 0;
 background-image: url('/assets/images/icons/left-arrow.png');
+}
+.banner-slider video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    object-fit: cover;
 }
 
 
@@ -252,13 +261,27 @@ gap: 24px;
 justify-content: center;
 }
 .counter-wrapper > * {
-max-width: calc(100% / 4 - 18px);
+max-width: calc(100% / 3 - 16px);
 flex: 0 0 100%;
 text-align: center;
 }
 .counter-icon {
-max-width: 100px;
+width: 100px;
+height: 100px;
 margin: 0 auto 20px;
+background-color: var(--light-color);
+border-radius: 50%;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+.counter-icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.counter-title {
+    margin-bottom: 10px;
 }
 
 
