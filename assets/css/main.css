@@ -212,8 +212,7 @@ max-width: calc(50% - 20px);
 flex: 0 0 100%;
 }
 .left-rigth-section .left-image {
-padding-left: 10px;
-padding-top: 10px;
+padding: 2px;
 background-color: var(--accent-color);
 position: relative;
 }
@@ -229,6 +228,12 @@ background-color: var(--accent-color);
 color: #fff;
 left: 0px;
 top: 0px;
+}
+.about-box {
+    padding: 15px;
+    background-color: var(--light-color);
+    box-shadow: 0 1px 4px 2px var(--light-blue);
+    border-radius: 8px;
 }
 .btn-wrap {
 margin-top: 20px;
