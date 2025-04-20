@@ -98,7 +98,7 @@ margin-bottom: 10px;
 *:last-child{
 margin-bottom: 0;
 }
-a.btn {
+.btn {
 display: inline-flex;
 justify-content: center;
 align-items: center;
@@ -111,10 +111,11 @@ min-width: 140px;
 background: var(--gradient-1);
 background-size: 200%;
 }
-a.btn:hover, 
-a.btn:focus{
+.btn:hover, 
+.btn:focus{
 /* background-color: var(--primary-color); */
 background-position: right center;
+color: #fff;
 }
 
 /*---- responsive ----*/
