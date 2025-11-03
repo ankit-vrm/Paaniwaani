@@ -623,3 +623,47 @@ section.insta-gallery-section {
 }
 
 }
+
+@media(max-width: 767px){
+    .features-row > * {
+    max-width: 100%;
+}
+.about-wrapper {
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.about-wrapper > .about-image {
+    max-width: 100%;
+}
+.about-wrapper > .about-content {
+    max-width: 100%;
+}
+.counter-row > * {
+    max-width: 100%;
+}
+.process-wrapper > * {
+    padding: 40px 0;
+}
+.process-wrapper {
+    flex-wrap: wrap;
+}
+.process-wrapper > *:nth-child(1) {
+    max-width: 100%;
+}
+.process-wrapper > *:nth-child(2) {
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+    padding: 40px 20px;
+}
+.faq-wrapper {
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.faq-wrapper > .faq-left {
+    max-width: 100%;
+}
+.faq-wrapper > .faq-right {
+    max-width: 100%;
+}
+}
