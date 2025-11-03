@@ -307,7 +307,7 @@ header.header-bg {
 
 /*---- mobile header ----*/
 .menu-toggle {flex-direction: column;justify-content: center;cursor: pointer;width: 25px;height: 25px;gap: 5px;}
-.menu-toggle span {display: block;height: 3px;width: 100%;background: var(--black);border-radius: 2px;transition: 0.3s;}
+.menu-toggle span {display: block;height: 3px;width: 100%;background: var(--primary);border-radius: 2px;transition: 0.3s;}
 
 /*--- footer ----*/
 footer.site-footer {
@@ -439,7 +439,9 @@ h5,.h5 {font-size: 16px;}
 /*--- header -----*/
 .header-right {display: none;}
 header.site-header {position: relative;padding: 20px 0;}
-.header-wrapper {max-width: 100%;}
+.header-wrapper {max-width: 100%; display: flex;
+        align-items: center;
+        justify-content: space-between;}
 .header-wrapper .header-left {max-width: 100px;margin: 0;}
 
 /*---- header -----*/
