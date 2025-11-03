@@ -490,4 +490,25 @@ header.header-bg {
 body.menu-open {
     overflow: hidden;
 }
+
+/*---- footer ----*/
+.footer-content-row {
+    flex-wrap: wrap;
+    gap: 40px 24px;
+}
+.footer-content-row > * {
+    max-width: calc(50% - 12px);
+}
+.footer-contact br {
+    display: block;
+}
+}
+
+@media(max-width: 475px){
+    .footer-content-row > * {
+    max-width: 100%;
+}
+.footer-content-row {
+    gap: 32px;
+}
 }
