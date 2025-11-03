@@ -560,5 +560,14 @@ section.insta-gallery-section {
     max-width: calc(100% / 3 - 16px);
 }
 .insta-gallery > * {max-width: calc(100% / 3 - 16px);}
+.advantages-row > *:nth-child(2) {
+    width: 340px;
+}
+.advantages-row > *:nth-child(1) {
+    padding-right: 100px;
+}
+.advantages-row > *:nth-child(3) {
+    padding-left: 100px;
+}
 
 }
