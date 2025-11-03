@@ -571,3 +571,23 @@ section.insta-gallery-section {
 }
 
 }
+
+@media(max-width: 991px){
+
+.features-row > * {
+    max-width: calc(100% / 2 - 12px);
+}
+.about-wrapper {
+    gap: 40px;
+}
+.about-wrapper > .about-content {
+    max-width: calc(100% - 40% - 40px);
+}
+.counter-row > * {
+    max-width: calc(100% / 2 - 12px);
+}
+.insta-gallery > * {
+    max-width: calc(100% / 2 - 12px);
+}
+
+}
