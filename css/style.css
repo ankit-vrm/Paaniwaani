@@ -544,3 +544,21 @@ section.insta-gallery-section {
 
 
 /*---- responsive ----*/
+
+@media(max-width: 1199px){
+
+.features-row > * {
+    max-width: calc(100% / 3 - 16px);
+}
+.features-row {
+    justify-content: center;
+}
+.counter-row {
+    justify-content: center;
+}
+.counter-row > * {
+    max-width: calc(100% / 3 - 16px);
+}
+.insta-gallery > * {max-width: calc(100% / 3 - 16px);}
+
+}
